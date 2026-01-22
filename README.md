@@ -1,4 +1,4 @@
-NOTES FOR LINDSAY:
+NOTES:
 
     - make github account
     - create a repo with <<username>>.github.io
