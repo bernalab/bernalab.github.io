@@ -39,3 +39,8 @@ HTML NOTES:
 
     - YOU CAN OPENING AND CLOSING TAGS
     - ITS A MARKUP LANGUAGE, SO NO LOGIC: JUST CREATING VISUALS
+
+
+*** "git status" can be used in between to check if everything is working
+git add -> git commit -m "<<message>> -> git push
+
