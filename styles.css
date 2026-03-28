@@ -50,3 +50,44 @@ p {
 
     background: whitesmoke;
 }
+
+.label {
+
+    cursor: pointer;
+    height: 10svh;
+}
+
+.content img {
+
+    height: 60svh;
+    width: 30vw;
+}
+
+.dropdown .closed {
+
+    height: 10svh !important;
+}
+
+.dropdown {
+
+    height: auto;
+}
+
+.closed {
+
+    height: 0;
+    width: 0;
+    overflow: hidden;
+    transform-origin: top;
+    visibility: hidden;
+    transition: ease-in-out 500ms;
+
+}
+
+.content {
+
+    transition: ease-in-out 500ms;
+    height: auto;
+    width: 100%;
+    padding: 0 1rem 0 1rem;
+}
