@@ -8,53 +8,114 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>CSCE 190: Brandon Bernal-Andrade</title>
         <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="bootstrap.min.css">
     </head>
 
     <!-- yeahhhh, this is the body --> 
-    <body>
-            <h1>Brandon Bernal-Andrade</h1>
+    <body class="container bg overflow-x-hidden">
+        
+        <!-- SECITON WILL BE LANDING PAGE -->
+        <section class="vh-100 row position-relative overflow-x-hidden">
 
-            <div class="about">
+            <div class="col-5 py-5 evenly flex-column border-end border-2 border-opacity-25">
+                <h1 class="w-100 display-6">Brandon <br> Bernal-Andrade</h1>
 
-                <h2>About Me:</h2>
-                <p>Mission Statement Here</p>
+                <div class="about">
+
+                    <h4 class="fw-semibold fst-italic mb-3">About Me:</h2>
+                    <p class="h6 fst-italic fw-normal">I am currently working on my programming skills to create software solutions. My goal is to integrate these programming
+skills to allow users to operate embedded systems. I am constantly seeking opporutinites to jump into learning new
+concepts to futher my understanding. I would love a job in full stack development at the moment, so I can get a better
+grasp of how to work the industry.</p>
+                </div>
+
+                <button class="btn btn-danger fw-semibold rounded rounded-3 w-50 py-2 h1"> Contact Me </button>
             </div>
 
-            <div class="skills left green attention">
+            <div class="col-7 overflow-y-hidden d-flex flex-column align-items-center justify-content-center gap-3 h-100 py-5">
+
+                <img class="w-50 h-100 rounded rounded-3" src="images/Hero.jpeg" alt="Hero Page">
+
+                <p class="text-center fst-italic h6 fw-normal text-opacity-50">Conway Riverwalk</p>
+
+            </div>           
+        </section>
+
+            
+
+            <div class="skills attention">
 
                 <h2>Skills:</h2>
 
-                <!-- Unordered List -->
-                <ul>
-                    <!-- List Item -->
-                    <li>Skill 1</li>
-                    <li>Skill 2</li>
-                </ul>
+                <div class="cards row evenly py-3">
+
+                    <div class="col-3 p-3 rounded rounded-3 h-100 border border-1 border-black p-3">
+
+                        <div class="h-75 border w-100">
+                            <img class="img-thumbnail" alt="Java">
+                        </div>
+
+                        <p class="h-25 h5 text-center w-100 py-2">Java<br>
+                        
+                        <span class="small fw-light fst-italic gap-0">Intermediate understanding of java and data structures in java</span>
+                        </p>
+                    </div>
+                    
+                    <div class="col-3 p-3 rounded rounded-3 h-100 border border-1 border-black p-3">
+
+                        <div class="h-75 border w-100">
+                            <img class="img-thumbnail" alt="Python">
+                        </div>
+
+                        <p class="h-25 h5 text-center w-100 py-2">Python<br>
+                        
+                        <span class="small fw-light fst-italic gap-0">Proficent in Python, primarily the use of API development in Flask and Django</span>
+                        </p>
+                    </div>
+
+
+                    <div class="col-3 p-3 rounded rounded-3 h-100 border border-1 border-black p-3">
+
+                        <div class="h-75 border w-100">
+                            <img class="img-thumbnail" alt="Javascript">
+                        </div>
+
+                        <p class="h-25 h5 text-center w-100 py-2">Javascript<br>
+                        
+                        <span class="small fw-light fst-italic gap-0">Understanding in javascript, primarily in React and Next.js</span>
+                        </p>
+                    </div>
+
+                </div>
+                
             </div>
 
-            <div class="projects">
+            <h2 class="">Projects:</h2>
+            <div class="projects px-3 vstack gap-2">
 
-                <h2 class="">Projects:</h2>
+                
                 <!-- TODO ADD PROBLEM STATEMENT -->
-                <div class="dropdown">
+                <div class="dropdown border-0 rounded rounded-1 border border-black border-opacity-25 ">
 
-                    <div class="label">
-                        <h1>Problem Statement (Click me)</h1>
+                    <div class="label py-0 rounded rounded-1 border border-2 border-black border-opacity-25">
+                        <h1 class="h-100 w-100 px-3 py-0">Problem Statement (Click me)</h1>
                     </div>
 
                     <div class="content closed">
+
+                        <p>Roommates being uncoordinated cause the living environment to be bad.</p>
+
 
                         <a href="files/problemStatement.pdf"><h3>Problem Statement</h3></a>
                         <a href="files/problemStatement.pdf"><img src="images/problem.png" alt="Roommate Problem"></a>
                     </div>
                     
                     <!-- MAKE IT A SS, LONG EXPLANATION IN PDF, AND SINGLE SENTECE IN A P TAG -->
-                    <p>Roommates being uncoordinated cause the living environment to be bad.</p>
                 </div>
-                <div class="dropdown">
+                <div class="dropdown border-0 rounded rounded-1 border border-black border-opacity-25 ">
 
-                    <div class="label">
-                        <h1>Personas (Click me)</h1>
+                    <div class="label py-0 rounded rounded-1 border border-2 border-black border-opacity-25">
+                        <h1 class="h-100 w-100 px-3 py-0">Personas (Click me)</h1>
                     </div>
 
                     <div class="content closed">
@@ -64,10 +125,10 @@
                     </div>
                     
                 </div>
-                <div class="dropdown">
+                <div class="dropdown border-0 rounded rounded-1 border border-black border-opacity-25 ">
 
-                    <div class="label">
-                        <h1>Affinity Diagram (Click me)</h1>
+                    <div class="label py-0 rounded rounded-1 border border-2 border-black border-opacity-25">
+                        <h1 class="h-100 w-100 px-3 py-0">Affinity Diagram (Click me)</h1>
                     </div>
 
                     <div class="content closed">
@@ -77,10 +138,10 @@
                     </div>
                     
                 </div>
-                <div class="dropdown">
+                <div class="dropdown border-0 rounded rounded-1 border border-black border-opacity-25 ">
 
-                    <div class="label">
-                        <h1>Sketches (Click me)</h1>
+                    <div class="label py-0 rounded rounded-1 border border-2 border-black border-opacity-25">
+                        <h1 class="h-100 w-100 px-3 py-0">Sketches (Click me)</h1>
                     </div>
 
                     <div class="content closed">
@@ -93,10 +154,10 @@
                     </div>
                     
                 </div>
-                <div class="dropdown">
+                <div class="dropdown border-0 rounded rounded-1 border border-black border-opacity-25 ">
 
-                    <div class="label">
-                        <h1>Storyboards (Click me)</h1>
+                    <div class="label py-0 rounded rounded-1 border border-2 border-black border-opacity-25">
+                        <h1 class="h-100 w-100 px-3 py-0">Storyboards (Click me)</h1>
                     </div>
 
                     <div class="content closed">
