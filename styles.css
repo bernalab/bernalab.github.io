@@ -58,6 +58,11 @@ body {
     user-select: none;
 }
 
+.contacts:hover, .contacts:hover * {
+
+    color: black;
+}
+
 .closed, .closed * {
 
     height: 0;
