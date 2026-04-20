@@ -5,6 +5,26 @@ body {
     margin: 40px;
 }
 
+html * {
+
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.h-card {
+
+    height: 75svh;
+}
+
+.top-25 {
+
+    top: 25%;
+}
+
 .bg {
 
     background: rgb(235, 234, 234);
@@ -90,4 +110,14 @@ body {
     flex-direction: column;
     align-items: start;
     justify-content: space-evenly;
+}
+
+.banner {
+
+    height: 60svh;
+}
+
+.banner img {
+
+    filter: blur(2px);
 }
