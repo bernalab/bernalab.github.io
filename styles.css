@@ -17,7 +17,12 @@ html, body {
 
 .h-card {
 
-    height: 75svh;
+    height: 50svh;
+}
+
+.descript {
+
+    font-size: 0.75rem;
 }
 
 .top-25 {
