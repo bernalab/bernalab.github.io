@@ -1,0 +1,152 @@
+body {
+
+    background: aliceblue;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 40px;
+}
+
+html * {
+
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.h-card {
+
+    height: 60svh;
+}
+
+.descript {
+
+    font-size: 0.75rem;
+}
+
+.top-25 {
+
+    top: 25%;
+}
+
+.bg {
+
+    background: rgb(235, 234, 234);
+}
+
+.cards {
+
+    height: 75vh;
+}
+
+.evenly {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* UTILITY CLASSESS */
+.left {
+
+    text-align: left;
+}
+
+.attention {
+
+    font-weight: bold;
+}
+
+.label {
+
+    cursor: pointer;
+}
+
+.content img {
+
+    height: 70vh;
+    width: 30vw;
+}
+
+.horz img {
+
+    width: 70vh !important;
+    height: 30vw !important;
+} 
+
+
+.dropdown {
+
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+    user-select: none;
+}
+
+.dropdown .off {
+
+    height: 2vh;
+}
+
+.contacts:hover, .contacts:hover * {
+
+    color: rgba(0, 0, 0, 0.5);
+    text-decoration: underline;
+}
+
+
+.content {
+
+    transition: height ease-in-out 500ms;
+    height: 90vh;
+    width: 100%;
+    padding: 0 1rem 0 1rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-evenly;
+}
+
+.banner {
+
+    height: 70vh;
+}
+
+.banner img {
+
+    filter: brightness(120%) blur(2px);
+}
+
+.about, .skills, .projects {
+
+    margin-top: 2rem !important;
+    position: relative;
+    padding-bottom: 0.5rem;
+
+
+}
+
+.about, .skills {
+
+    border-bottom: 0.1rem solid rgba(255, 255, 255, 0.1);
+}
+
+.opacity-90 {
+
+    opacity: 90%;
+}
+
+.opacity-90:hover {
+
+    opacity: 100%;
+}
+
+@media (max-width: 576px) { 
+
+    .banner {
+
+        height: 60vh !important;
+    }
+}
