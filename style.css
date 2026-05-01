@@ -75,6 +75,15 @@ html, body {
     height: 30vw !important;
 } 
 
+.content h3 {
+
+    color: white;
+}
+
+.content h3:hover {
+
+    font-style: italic;
+}
 
 .dropdown {
 
